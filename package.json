@@ -1,0 +1,19 @@
+{
+  "name": "bcotteret.github.io",
+  "version": "0.0.1",
+  "description": "Personal blogging website",
+  "main": "index.js",
+  "authors": {
+    "name": "Bruno COTTERET",
+    "email": "bcotteret@lm2s.fr"
+  },
+  "repository": "https://github.com/bcotteret/bcotteret.github.io/bcotteret.github.io",
+  "scripts": {
+    "dev": "vuepress dev docs",
+    "build": "vuepress build docs --dest=dist"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "vuepress": "^1.7.1"
+  }
+}
